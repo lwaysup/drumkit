@@ -1,0 +1,56 @@
+html {
+2   font-size: 10px;
+3   background-image: url("spectators.jpg");
+    background-repeat: no-repeat;
+4   background-size: cover;
+5 }
+6 body,html {
+7   margin: 0;
+8   padding: 0;
+9   font-family: sans-serif;
+10 }
+11
+
+12 .keys {
+13   display: flex;
+14   flex: 1;
+15   min-height: 100vh;
+16   align-items: center;
+17   justify-content: center;
+18 }
+19
+
+20 .key {
+21   border: .4rem solid black;
+22   border-radius: .5rem;
+23   margin: 1rem;
+24   font-size: 1.5rem;
+25   padding: 1rem .5rem;
+26   transition: all .07s ease;
+27   width: 10rem;
+28   text-align: center;
+29   color: white;
+30   background: rgba(0,0,0,0.4);
+31   text-shadow: 0 0 .5rem black;
+32 }
+33
+
+34 .playing {
+35   transform: scale(1.1);
+36   border-color: #ffc600;
+37   box-shadow: 0 0 1rem #ffc600;
+38 }
+39
+
+40 kbd {
+41   display: block;
+42   font-size: 4rem;
+43 }
+44
+
+45 .sound {
+46   font-size: 1.2rem;
+47   text-transform: uppercase;
+48   letter-spacing: .1rem;
+49   color: #ffc600;
+50 }
